@@ -1,6 +1,6 @@
-#Ordenamiento por Paridad  :tw-1f31f:
-Bienvenido  a nuestro repositorio :tw-270c:
-:tw-1f50e:*Analisis y Diseño de Algoritmos  :tw-1f1fa::tw-1f1eb::tw-1f1f5::tw-1f1f8:*
+#Ordenamiento por Paridad 
+Bienvenido  a nuestro repositorio 
+**Analisis y Diseño de Algoritmos**  
 
 ## Tabla de Contenido
 La siguiente tabla define cada uno de los temas desarrollados durante el desarrollo del algoritmo de ordenamiento por Pariedad
