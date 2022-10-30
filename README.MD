@@ -1,6 +1,6 @@
-# ALGORITMOS DE BUSQUEDA Y ORDENAMIENTO :computer:
-
-![version](https://pandorafms.com/blog/wp-content/uploads/2018/05/que-es-un-algoritmo-featured.png) 
+# Ordenamiento por Paridad  :computer:
+Bienvenido  a nuestro repositorio
+:tw-1f50e:*Analisis y Diseño de Algoritmos  :tw-1f1fa::tw-1f1eb::tw-1f1f5::tw-1f1f8:*
 
 ## Tabla de Contenido
 
