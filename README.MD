@@ -4,9 +4,8 @@ Bienvenido  a nuestro repositorio :sparkles:
 
 ## Tabla de Contenido 
 
-* [Algoritmos Utilizados](#Ordenamiento por Paridad)         
-- [Ordenamiento por Pariedad](#Ordenamiento por Paridad)
-    + [¿Que significa paridad?](#¿Que significa paridad?).
+- [Primer apartado](#id1)
+    + [¿Que significa paridad?](#id1-1)
     + Item B 2
     + Item B 3
 + Item B
@@ -18,10 +17,15 @@ Bienvenido  a nuestro repositorio :sparkles:
     * Item C 2
     * Item C 3
 
+
 ## Ordenamiento por Paridad
+<div id='id1' />
+
 ### ¿Que significa paridad?
 Ordenar por paridad, significa ordenar un conjunto de numero entre 2 conjunto, un conjunto entre numeros pares y impares como se visualiza a continuacion:
 ![](https://i.ibb.co/KxmxG9y/Captura2332.png)
+<div id='id1-1' />
+
 
 > Ordenamiento por Paridad
 
