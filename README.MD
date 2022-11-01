@@ -19,6 +19,11 @@ _Bienvenido  a nuestro repositorio :wave:_
 - [Pruebas del Algoritmo](#pruebas)
     + [herramientas de desarrollo](#herramientas)
     + [Net Beans IDE](#netbeans)
+    + [Java JDK](#jdk)
+    - [Estructura de las Pruebas](#estructura)
+        + [Clase Main](#main)
+        + [Clase Prueba](#prueba)
+        + [Clase Solucion](#solucion)
     
 + Item C
     * Item C 1
@@ -81,12 +86,16 @@ Podemos decir que no tiene un costo algorítmico alto, debido a que es una funci
 Las pruebas del algoritmo se basa en la *escritura* y *lectura* de 2 ficheros especificos, **pruebas.txt** & **resultados.txt**, ademas, la aplicacion fue desarrollado en el lenguaje de Programacion Java, por ende, es necesario que tengas instalado las siguientes herramientas/frameworks o librerias:
 
 <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="74" height="64" >
->Algoritmo y Pruebas desarrollados en Lenguaje de Programacion java
+> Algoritmo y Pruebas desarrollados en Lenguaje de Programacion java
 
 ## herramientas
 ### netbeans
 * Descarga Net Beans desde la [pagina oficial](https://netbeans.apache.org/download/index.html) <img src="http://www.davidtan.org/wp-content/uploads/2009/12/netbeans-ide-logo-icon.png" width="74" height="64" >
+### jdk
 * Descarga Java JDK desde  [aqui](https://www.java.com/es/download/help/develop_es.html) <img src="https://miro.medium.com/max/785/1*7fDw5W4a5WxJY9wQIgzNLQ.jpeg" width="74" height="64" >
+
+# Estructura de las Pruebas
+Las pruebas se basan en **3 clases principales**: *Main*, *Prueba* y *Solucion.java*
 
 
 
