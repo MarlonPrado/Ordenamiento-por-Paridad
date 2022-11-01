@@ -133,7 +133,7 @@ public class Prueba {
                 
                 int d = generaNumeroAleatorio(1001, 2500);
                 
-                int e = generaNumeroAleatorio(2501, 10000);
+                int e = generaNumeroAleatorio(2501, 9999);
 
                 escritura.write(a + " " + d + " " + c + " " + b + " " + e + "\r\n");
                 qc++;
@@ -185,6 +185,13 @@ public class Prueba {
                 for (int i = 0; i < arraynumerica.length; i++) {
                     //COnvierte cada String en un valor numerico y lo almacena en el arreglo int nums[]
                     nums[i] = Integer.parseInt(arraynumerica[i]);
+                    
+                    
+                    //Valida aquellos valores que son invalidos, convierte el primer elemento en un valor comparable "-10000"
+                    if(nums[i]<=0 || nums[i]>5000 ){
+                        nums[0] = -1000;
+                    }
+                  
                 }
                 
                 //Una vez convertido la linea en un string en un arreglo de enteros , procederemos a llamar el metodo de ordenamiento por paridad
@@ -192,10 +199,20 @@ public class Prueba {
                 
                 //Imprime en consola la respuesta (Cada caso de prueba valido, cumple el siguiente formato "[numero par, numero impar]")
                 
-                System.out.print("["); //<--- Imprime en salida en consola
+               int datoinvalido = 0;
                 String resultado= "["; //<--- Esta variable resultado se ira concatenando con mas datos, almacenando en el archivo "Resultado.txt"
+                if (nums[0]==-1000) {
+                         System.out.print("Entrada invalida, verifica las restricciones"); //<--- Imprime en salida en consola cada uno de los elementos del arreglo ordenado separado por ","
+                        resultado="Entrada invalida, verifica las restricciones"; //<--- resultado se concatena con el arreglo ordenado
+                        datoinvalido++;
+                    } 
+                
+                else if(datoinvalido==0){
+                    
+                    System.out.print("["); //<--- Imprime en salida en consola
                 for (int i = 0; i < nums.length; i++) {
-
+                     
+                   
                     if (i != nums.length - 1) {
 
                         System.out.print(nums[i] + ","); //<--- Imprime en salida en consola cada uno de los elementos del arreglo ordenado separado por ","
@@ -204,6 +221,7 @@ public class Prueba {
                         System.out.println(nums[i] + "]"); //<--- Imprime en salida en consola, el ultimo elemento + cierre de llave
                         resultado = resultado + nums[i] + "]"; //<--- resultado se concatena con el ultimo elemento del arreglo ordenado  + cierre de llave
                     }
+            }
                     
                     
                 } 
