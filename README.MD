@@ -21,17 +21,13 @@ _Bienvenido  a nuestro repositorio :wave:_
     + [Net Beans IDE](#netbeans)
     + [Java JDK](#jdk)
     - [Estructura de las Pruebas](#estructura)
-        + [Clase Main](#main)
-        + [Clase Prueba](#prueba)
-        + [Clase Solucion](#solucion)
-    
-+ Item C
-    * Item C 1
-    * Item C 2
-    * Item C 3
+        + [Clase Main](#mainjava)
+        + [Clase Prueba](#pruebajava)
+        + [Clase Solucion](#solucionjava)
 
 
-# ordenamiento
+
+# ordenamiento  
 ### significado
 Ordenar por paridad, significa ordenar un conjunto de numero entre 2 conjunto, un conjunto entre numeros pares y impares como se visualiza:
 ![alusion](https://i.ibb.co/KxmxG9y/Captura2332.png)
@@ -94,8 +90,23 @@ Las pruebas del algoritmo se basa en la *escritura* y *lectura* de 2 ficheros es
 ### jdk
 * Descarga Java JDK desde  [aqui](https://www.java.com/es/download/help/develop_es.html) <img src="https://miro.medium.com/max/785/1*7fDw5W4a5WxJY9wQIgzNLQ.jpeg" width="74" height="64" >
 
-# Estructura de las Pruebas
+# estructura
 Las pruebas se basan en **3 clases principales**: *Main*, *Prueba* y *Solucion.java*
+
+![estructura](https://i.ibb.co/CvGvVrt/image.png)
+> Estructura del Proyecto
+### mainjava 
+Esta clase principal, invoca los metodos de Pruebas.java, estos metodos consisten en la generacion, creacion e impresion de los casos de prueba
+
+### pruebajava
+Esta clase es el corazon de la aplicacion, posee 4 metodos que permite:
+* Crear un archivo de texto vacio para almacenar el conjunto de casos de prueba
+* Escribir sobre el fichero recien creado y almacenar con datos aleatorios
+* Generar un conjunto de numero aleatorios a traves de una petcion o llamado al metodo Math.Random();
+* Leer los casos d epruebas generados, imprimir en consola la respuesta y anexar dichas respuestas en un nuevo archivo de texto, llamado "respuestas.txt"
+### solucionjava
+Esta clase abarca unicamente el algoritmo de ordenamiento por paridad, usado solamente para la generacion de casos de prueba
+
 
 
 
