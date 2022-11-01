@@ -4,7 +4,7 @@ _Bienvenido  a nuestro repositorio :wave:_
 :construction_worker:*Analisis y Diseño de Algoritmos*  :memo:
 
 ## Tabla de Contenido 
-
+![alusion](https://s4.gifyu.com/images/Intro--Explicacion.gif)
 - [Ordenamiento por Paridad](#ordenamiento)
     + [¿Que significa paridad?](#significado)
     + [Problema de Sort Array by Parity](#problema)
@@ -24,6 +24,7 @@ _Bienvenido  a nuestro repositorio :wave:_
         + [Clase Main](#mainjava)
         + [Clase Prueba](#pruebajava)
         + [Clase Solucion](#solucionjava)
+- [Autores](#autores)
 
 
 
@@ -105,7 +106,12 @@ Esta clase es el corazon de la aplicacion, posee 4 metodos que permite:
 * Generar un conjunto de numero aleatorios a traves de una petcion o llamado al metodo Math.Random();
 * Leer los casos d epruebas generados, imprimir en consola la respuesta y anexar dichas respuestas en un nuevo archivo de texto, llamado "respuestas.txt"
 ### solucionjava
-Esta clase abarca unicamente el algoritmo de ordenamiento por paridad, usado solamente para la generacion de casos de prueba
+Esta clase abarca unicamente el algoritmo de ordenamiento por paridad, usado solamente para la evaluacion de los casos de prueba
+
+# autores
+
+* Marlon Stiven 
+* Orlando Beltran
 
 
 
