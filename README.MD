@@ -11,17 +11,22 @@ _Bienvenido  a nuestro repositorio :wave:_
     + [Entrada del Problema](#entrada)
     + [Salida del Problema](#salida)
     + [Criterios de Aceptacion](#criterios)
-+ Item B
-    + Item B 1
-    + Item B 2
-    + Item B 3
+    
+- [Algoritmo de Ordenamiento por Paridad](#algoritmo)
+    + [Descripcion de la Solucion](#explicacion)
+    + [Analisis de la Complejidad](#analisis)
+    
+- [Pruebas del Algoritmo](#pruebas)
+    + [herramientas de desarrollo](#herramientas)
+    + [Net Beans IDE](#netbeans)
+    
 + Item C
     * Item C 1
     * Item C 2
     * Item C 3
 
 
-## ordenamiento
+# ordenamiento
 ### significado
 Ordenar por paridad, significa ordenar un conjunto de numero entre 2 conjunto, un conjunto entre numeros pares y impares como se visualiza:
 ![alusion](https://i.ibb.co/KxmxG9y/Captura2332.png)
@@ -55,3 +60,34 @@ return nums = {10,4,1,7};
 Seran aceptados aquellas entradas que cumpla las siguientes restricciones definidas por el enunciado del problema
 * El tamaño del arreglo debe ser **mayor o igual** a 0 y **menor o igual** a 5000
 * El elemento del arreglo en la posicion nums[i] debe ser **mayor o igual** a 0 y **menor o igual** a 5000
+
+# algoritmo
+![algoritmo](https://i.ibb.co/nC09wcD/image.png)
+> Algoritmo de Ordenamiento por Paridad
+### explicacion
+*" El algoritmo propuesto para el ejercicio se basa en hacer un intercambio de números pares por números impares, por lo que se decidió usar 2 variables. Ambas son variables de tipo “Integer”, donde una se llama aux, la cual tiene la función de apuntador, donde este siempre comenzará en el inicio del arreglo. La otra variable es llamada “tmp”, la cual servirá para poder almacenar el valor de la posición “i” del arreglo, para que de esta manera se pueda realizar el cambio de valores. 
+Como se ha mencionado anteriormente, lo que busca el ejercicio es ordenar el arreglo 
+donde los pares estén primeros que los impares, por lo que no importa si estos en sí están ordenados de menor a mayor  o viceversa. Por lo que no importa que el intercambio anteriormente mencionado sea entre un número par por otro número par, ya que de igual manera la variable auxiliar estará iterando el arreglo con ayuda del ciclo for.* 
+
+### analisis
+*Ahora bien, si hacemos un análisis del código, está señalizado en la imagen adjunta anterior, podemos darnos cuenta que la función matemática que la describe es:
+8n+4, lo que significa que su complejidad algorítmica es O(n). 
+Podemos decir que no tiene un costo algorítmico alto, debido a que es una función lineal, se puede decir que es una complejidad aceptable para este ejercicio.
+*  
+![complejidad](https://i.ibb.co/4fQn2PR/image.png)
+> Analisis de la Complejidad, una complejidad lineal para el peor de los casos
+
+# pruebas
+Las pruebas del algoritmo se basa en la *escritura* y *lectura* de 2 ficheros especificos, **pruebas.txt** & **resultados.txt**, ademas, la aplicacion fue desarrollado en el lenguaje de Programacion Java, por ende, es necesario que tengas instalado las siguientes herramientas/frameworks o librerias:
+
+<img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="74" height="64" >
+>Algoritmo y Pruebas desarrollados en Lenguaje de Programacion java
+
+## herramientas
+### netbeans
+* Descarga Net Beans desde la [pagina oficial](https://netbeans.apache.org/download/index.html) <img src="http://www.davidtan.org/wp-content/uploads/2009/12/netbeans-ide-logo-icon.png" width="74" height="64" >
+* Descarga Java JDK desde  [aqui](https://www.java.com/es/download/help/develop_es.html) <img src="https://miro.medium.com/max/785/1*7fDw5W4a5WxJY9wQIgzNLQ.jpeg" width="74" height="64" >
+
+
+
+
